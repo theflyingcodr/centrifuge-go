@@ -132,6 +132,13 @@ func (c *Client) SetToken(token string) {
 	c.token = token
 }
 
+// SetURL allows to set URL to allow dynamic urls to be assigned to after a disconnect for example.
+func (c *Client) SetURL(url string) {
+	c.mu.Lock()
+	defer c.mu.Unlock()
+	c.url = url
+}
+
 // SetConnectData allows to set data to send in connect command.
 func (c *Client) SetConnectData(data []byte) {
 	c.mu.Lock()
