@@ -6,7 +6,7 @@ import (
 
 	_ "net/http/pprof"
 
-	"github.com/centrifugal/centrifuge-go"
+	"github.com/theflyingcodr/centrifuge-go"
 )
 
 type eventHandler struct{}

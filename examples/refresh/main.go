@@ -7,7 +7,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/centrifugal/centrifuge-go"
+	"github.com/theflyingcodr/centrifuge-go"
 	"github.com/dgrijalva/jwt-go"
 )
 

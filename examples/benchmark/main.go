@@ -15,7 +15,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/centrifugal/centrifuge-go"
+	"github.com/theflyingcodr/centrifuge-go"
 )
 
 // Some sane defaults.
